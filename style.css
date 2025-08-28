@@ -5,7 +5,7 @@
 }
 
 :root {
-  --green: #7fff00;
+  --green: #86e627c9;
   --white: #ffffff;
   --grey1: #333333;
   --grey2: #1f1f1f;
@@ -26,7 +26,7 @@ a {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
 
@@ -36,16 +36,18 @@ ul {
 
 h3 {
   color: var(--white);
-  font-size: 3rem;
+  font-size: 1.9rem;
 }
 
 p {
   color: var(--white);
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 300;
 }
 
 .location {
   color: var(--green);
-  margin-bottom: 2rem;
 }
 
 .attribution {
@@ -56,32 +58,32 @@ p {
   justify-content: center;
   align-items: center;
   background-color: var(--grey2);
-  width: 300px;
   border-radius: 8px;
 }
 
-.main-contianer {
-  max-width: 1000px;
-  width: 100%;
+main {
   margin: 0 auto;
+  background-color: var(--grey3);
 }
 
 .image-container {
-  max-width: 70px;
-  width: 100%;
-  padding: 1rem 1rem;
+  padding: 1.7rem 1rem;
 }
+
 .pic {
+  width: 7rem;
   border-radius: 50%;
 }
 
 .contianer {
   display: flex;
-  background-color: var(--grey3);
+  background-color: #141414;
   align-items: center;
   justify-content: center;
-  padding: 10rem 5rem;
-  margin-top: 5rem;
+  padding: 8rem 1rem;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .btn {
@@ -90,21 +92,17 @@ p {
   align-items: center;
   justify-content: center;
   row-gap: 1rem;
-  border-radius: 4px;
-  padding: 3rem 2rem;
-  font-weight: 600;
+  border-radius: 7px;
+  padding: 1rem 1.7rem 2rem 1.7rem;
+  font-weight: 400;
 }
 
 .primary {
-  padding: 1rem;
-  font-size: 1.6rem;
+  padding: 1rem 0rem;
+  font-size: 1.2rem;
   color: var(--white);
   background-color: var(--grey1);
   width: 250px;
-}
-
-.primary:hover {
-  background-color: var(--green);
 }
 
 .detail {
@@ -113,20 +111,9 @@ p {
 }
 
 /*Web responsiveness*/
-@media (max-width: 90rem) {
-  html {
-    font-size: 43.75%;
-  }
-}
 
-@media (max-width: 23.4rem) {
-  html {
-    font-size: 31.25%;
-  }
-  .attribution {
-    width: 200px;
-  }
-  .primary {
-    width: 150px;
+@media (min-width: 756px) {
+  .primary:hover {
+    background-color: var(--green);
   }
 }
