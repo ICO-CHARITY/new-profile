@@ -67,9 +67,6 @@ main {
   background-color: var(--grey3);
 }
 
-.image-container {
-  padding: 1.7rem 1rem;
-}
 =======
   height:100vh;
 
@@ -78,12 +75,11 @@ main {
 .image-container {
   max-width: 70px;
   width: 100%;
-  padding: 1rem 1rem;
+  padding: 1.7rem 1rem;
   }
 >>>>>>> 4b8d8c668831ccc01df425bad788f0b97d81bbe9
 
 .pic {
-  width: 7rem;
   border-radius: 50%;
 }
 
