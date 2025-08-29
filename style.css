@@ -19,8 +19,6 @@ html {
 body {
   font-family: sans-serif;
   overflow:hidden;
-  width:100%;
-
 }
 
 a {
@@ -68,7 +66,7 @@ main {
   margin: 0 auto;
 <<<<<<< HEAD
   background-color: var(--grey3);
-  width:100%
+  width:100%;
 }
 
 =======
