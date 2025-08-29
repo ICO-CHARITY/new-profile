@@ -17,7 +17,6 @@ html {
 }
 
 body {
-  overflow-x:hidden;
   font-family: sans-serif;
 }
 
@@ -66,11 +65,10 @@ main {
   margin: 0 auto;
 <<<<<<< HEAD
   background-color: var(--grey3);
-  width:100vh;
 }
 
 =======
-  height:100vh;
+
 
 }
 
