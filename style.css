@@ -12,8 +12,10 @@
   --grey3: #141414;
 }
 
+
 html {
   font-size: 62.5%;
+  color:hsl(0, 0%, 20%) ;
 }
 
 body {
@@ -36,12 +38,12 @@ ul {
 
 h3 {
   color: var(--white);
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
 p {
   color: var(--white);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 1rem;
   font-weight: 300;
 }
@@ -57,45 +59,38 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--grey2);
   border-radius: 8px;
+  background-color: var(--grey2);
 }
 
 main {
   margin: 0 auto;
+  max-width: 1400px;
+  width: 100%;
 <<<<<<< HEAD
-  background-color: var(--grey3);
 }
 
 .image-container {
   padding: 1.7rem 1rem;
-}
-=======
-  height:100vh;
+max-width:90px;
 
 }
 
-.image-container {
-  max-width: 70px;
-  width: 100%;
-  padding: 1rem 1rem;
-  }
->>>>>>> 4b8d8c668831ccc01df425bad788f0b97d81bbe9
 
-.pic {
-  width: 7rem;
+.pic{
   border-radius: 50%;
 }
 
+
+
 .contianer {
   display: flex;
-  background-color: #141414;
+  background-color:var(--grey3);
   align-items: center;
   justify-content: center;
-  padding: 8rem 1rem;
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+  padding: 6rem 0rem;
+  
+    margin: 0 auto;
 }
 
 .btn {
@@ -103,24 +98,25 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 1rem;
+  row-gap: 1.2rem;
   border-radius: 7px;
   padding: 1rem 1.7rem 2rem 1.7rem;
   font-weight: 400;
 }
 
 .primary {
-  padding: 1rem 0rem;
+  padding: 1rem 1rem;
   font-size: 1.2rem;
   color: var(--white);
   background-color: var(--grey1);
-  width: 250px;
+  width: 280px;
 }
 
 .detail {
   text-align: center;
   color: #3e52a3;
 }
+
 
 /*Web responsiveness*/
 
@@ -129,3 +125,16 @@ main {
     background-color: var(--green);
   }
 }
+
+
+=======
+  height:100vh;
+
+}
+
+
+>>>>>>> 4b8d8c668831ccc01df425bad788f0b97d81bbe9
+
+
+
+
