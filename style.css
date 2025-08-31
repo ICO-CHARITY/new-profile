@@ -18,7 +18,6 @@ html {
 
 body {
   font-family: sans-serif;
-  
 }
 
 a {
@@ -27,7 +26,7 @@ a {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
 }
 
@@ -68,22 +67,18 @@ main {
   background-color: var(--grey3);
 }
 
-=======
-
-  height:100vh;
+.image-container {
+  padding: 1.7rem 1rem;
+max-width:90px;
 
 }
 
-.image-container {
-  max-width: 70px;
-  width: 100%;
-  padding: 1.7rem 1rem;
-  }
->>>>>>> 4b8d8c668831ccc01df425bad788f0b97d81bbe9
 
-.pic {
+.pic{
   border-radius: 50%;
 }
+
+
 
 .contianer {
   display: flex;
@@ -120,6 +115,7 @@ main {
   color: #3e52a3;
 }
 
+
 /*Web responsiveness*/
 
 @media (min-width: 756px) {
@@ -127,3 +123,6 @@ main {
     background-color: var(--green);
   }
 }
+
+
+
